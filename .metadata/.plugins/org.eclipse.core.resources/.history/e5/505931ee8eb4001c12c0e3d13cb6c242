@@ -1,0 +1,20 @@
+package mypack;
+import static io.restassured.RestAssured.*;
+public class Test5 {
+
+	public static void main(String[] args)
+	{
+		//way-1 : patha parameter value in URI
+		given()
+			.baseUri("https://jsonplaceholder.typicode.com")
+			.basePath("posts/100")
+		.when()
+			.get()
+		.then()
+			.log().all();
+			
+		
+
+	}
+
+}

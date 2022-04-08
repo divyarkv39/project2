@@ -1,0 +1,19 @@
+package mypack;
+
+import java.util.Scanner;
+
+public class Test6 {
+
+	public static void main(String[] args) 
+	{
+		//Take value from keyboard
+		Scanner sc=new Scanner(System.in);
+		System.out.println("enter path parameter value");
+		String x=sc.nextLine();
+		
+		
+		
+
+	}
+
+}

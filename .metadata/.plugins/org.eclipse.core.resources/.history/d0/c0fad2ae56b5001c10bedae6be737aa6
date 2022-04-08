@@ -1,0 +1,19 @@
+package mypack;
+import static io.restassured.RestAssured.*;
+
+public class Test7 {
+
+	public static void main(String[] args)
+	{
+		given()
+			.baseUri("https://www.google.com")
+			.basePath("search")
+		.when()
+			.given()
+		.then()
+			.log().status();
+		
+
+	}
+
+}

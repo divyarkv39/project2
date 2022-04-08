@@ -1,0 +1,15 @@
+package mypack;
+
+public class Test5 {
+
+	public static void main(String[] args)
+	{
+		//way-1 : patha parameter value in URI
+		given()
+			.baseUri("")
+			
+		
+
+	}
+
+}

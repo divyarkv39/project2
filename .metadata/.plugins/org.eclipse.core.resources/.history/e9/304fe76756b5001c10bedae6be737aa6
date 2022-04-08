@@ -1,0 +1,20 @@
+package mypack;
+import static io.restassured.RestAssured.*;
+
+public class Test7 {
+
+	public static void main(String[] args)
+	{
+		given()
+			.baseUri("https://www.google.com")
+			.basePath("search")
+			.queryParam("q","what is the gold rate in bangalore?")
+		.when()
+			.given()
+		.then()
+			.log().all();
+		
+
+	}
+
+}
